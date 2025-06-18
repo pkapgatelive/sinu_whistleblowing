@@ -1,0 +1,27 @@
+
+@switch (appDataService.page) {
+  @case ('blank') {
+    <div>
+    </div>
+  }
+  @case ('tippage') {
+    <div>
+      <src-tippage></src-tippage>
+    </div>
+  }
+  @case ('submissionpage') {
+    <div>
+      <src-submission></src-submission>
+    </div>
+  }
+  @case ('receiptpage') {
+    <div>
+      <src-receipt-whistleblower></src-receipt-whistleblower>
+    </div>
+  }
+  @default {
+    <div>
+      <src-homepage></src-homepage>
+    </div>
+  }
+}

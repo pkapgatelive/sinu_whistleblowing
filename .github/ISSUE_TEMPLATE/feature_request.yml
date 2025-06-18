@@ -1,0 +1,12 @@
+name: Feature request
+description: Suggest a new feature.
+title: "Suggest a new feature"
+labels: ["Triage", "T: Feature"]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Provide detailed information about your feature ideas including references to related work.
+    validations:
+      required: true

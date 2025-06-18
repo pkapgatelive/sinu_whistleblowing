@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/inter-all-400-normal.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/inter-all-700-normal.woff") format("woff");
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+legend,
+.rst-content .toctree-wrapper p.caption {
+  color: #1d1f2a;
+}
+
+a,
+a:active,
+a:visited,
+a:focus {
+  color: #204f82;
+}
+
+a:hover {
+  color: #3679BB;
+}
+
+.highlight {
+  background-color: #eef5fc;
+}
+
+.rst-content tt.literal,
+.rst-content tt.literal,
+.rst-content code.literal {
+  color: #3679BB;
+}
+
+.wy-nav-side {
+  background-color: #103253;
+}
+
+.wy-nav-top a,
+.wy-nav-top a:active,
+.wy-nav-top a:focus,
+.wy-nav-top a:hover,
+.wy-nav-top a:visited,
+.wy-nav-side a,
+.wy-nav-side a:active,
+.wy-nav-side a:focus,
+.wy-nav-side a:hover,
+.wy-nav-side a:visited,
+.wy-side-nav-search>div.switch-menus>div.language-switch select,
+.wy-side-nav-search>div.switch-menus>div.version-switch select {
+  color: #FFF;
+}
+
+.wy-side-nav-search>div.switch-menus>div.language-switch select:active,
+.wy-side-nav-search>div.switch-menus>div.language-switch select:focus,
+.wy-side-nav-search>div.switch-menus>div.language-switch select:hover,
+.wy-side-nav-search>div.switch-menus>div.version-switch select:active,
+.wy-side-nav-search>div.switch-menus>div.version-switch select:focus,
+.wy-side-nav-search>div.switch-menus>div.version-switch select:hover {
+  background: none; 
+  color: #FFF;
+}
+
+.wy-nav-top {
+  background-color: #3679BB;
+}
+
+.wy-menu .caption-text {
+  color: #5794d5;
+}
+
+vertical li.current > a {
+  color: #1d1f2a;
+}
+
+.document ul,
+.document li {
+  list-style: disc;
+}
+
+.centered-content {
+  display: table;
+  margin: 1em auto;
+}
+
+.donation-banner {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  z-index: 1000;
+}
+
+.donation-banner a {
+  font-weight: bold;
+}
+
+.donation-icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 767px) {
+  .wy-nav-content {
+    max-width: 100% !important;
+  }
+
+  .wy-table-responsive table td,
+  .wy-table-responsive table th {
+    white-space: normal !important;
+  }
+
+  .wy-table-responsive {
+    overflow: visible !important;
+    max-width: 100%;
+  }
+}
